@@ -21,6 +21,7 @@
 		572C002E1813EFEA00EE743C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 572C00101813EFEA00EE743C /* UIKit.framework */; };
 		572C00361813EFEA00EE743C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 572C00341813EFEA00EE743C /* InfoPlist.strings */; };
 		572C00381813EFEA00EE743C /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 572C00371813EFEA00EE743C /* Git_TestTests.m */; };
+		572C00431813F68E00EE743C /* Git Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 572C00421813F68E00EE743C /* Git Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		572C00331813EFEA00EE743C /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		572C00351813EFEA00EE743C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		572C00371813EFEA00EE743C /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		572C00411813F68E00EE743C /* Git Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Git Test.h"; sourceTree = SOURCE_ROOT; };
+		572C00421813F68E00EE743C /* Git Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Git Test.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				572C001E1813EFEA00EE743C /* Main.storyboard */,
 				572C00211813EFEA00EE743C /* GTViewController.h */,
 				572C00221813EFEA00EE743C /* GTViewController.m */,
+				572C00411813F68E00EE743C /* Git Test.h */,
+				572C00421813F68E00EE743C /* Git Test.m */,
 				572C00241813EFEA00EE743C /* Images.xcassets */,
 				572C00131813EFEA00EE743C /* Supporting Files */,
 			);
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				572C00191813EFEA00EE743C /* main.m in Sources */,
+				572C00431813F68E00EE743C /* Git Test.m in Sources */,
 				572C00231813EFEA00EE743C /* GTViewController.m in Sources */,
 				572C001D1813EFEA00EE743C /* GTAppDelegate.m in Sources */,
 			);
